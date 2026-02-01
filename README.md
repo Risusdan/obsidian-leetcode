@@ -1,6 +1,6 @@
 # Obsidian LeetCode & Technical Interview Preparation Tracker
 
-An Obsidian vault for tracking a one-year LeetCode study plan based on the NeetCode 150 list, along with technical learning, test engineering, and behavioral interview preparation.
+An Obsidian vault for tracking a one-year LeetCode study plan based on the NeetCode 150 list, along with technical learning and behavioral interview preparation.
 
 ## Vault Structure
 
@@ -42,8 +42,6 @@ obsidian-leetcode/
 │   ├── SQL/
 │   ├── Pytest/
 │   └── RobotFramework/
-├── TestEngineering/
-│   └── TestCaseDesign/
 └── EnglishAndInterview/
     ├── BehavioralInterview/
     └── EnglishPractice/
