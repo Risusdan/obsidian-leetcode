@@ -128,12 +128,14 @@ Open Graph View (`Cmd+G`) to visualize connections between problems, phases, and
 
 ## Plugins & Theme
 
-| Plugin | Purpose |
-|--------|---------|
-| **Dataview** | Powers all dashboard queries and progress tables |
-| **Kanban** | Weekly task board (WeeklyKanban.md) |
-| **Obsidian Git** | Auto-commit and sync vault to GitHub |
-| **Custom Attachment Location** | Organize attachments per folder |
-| **Table Editor** | Easier markdown table editing |
+| Plugin                         | Purpose                                          |
+| ------------------------------ | ------------------------------------------------ |
+| **Dataview**                   | Powers all dashboard queries and progress tables |
+| **Kanban**                     | Weekly task board (WeeklyKanban.md)              |
+| **Obsidian Git**               | Auto-commit and sync vault to GitHub             |
+| **Custom Attachment Location** | Organize attachments per folder                  |
+| **Table Editor**               | Easier markdown table editing                    |
+
+See https://youtu.be/IlNOhNeWGgY?si=kCzXCEmpc_PAVIec for plugin setup instructions.
 
 **Theme**: Obsidian Nord
