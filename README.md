@@ -69,7 +69,7 @@ obsidian-leetcode/
 3. Solve the LeetCode problem — write solution in the corresponding `LeetCode/{Topic}/` note using the template
 4. Update frontmatter status (`🔴` → `🟡` → `🟢`) and fill in complexity analysis + key takeaways
 5. Move the Kanban card to Done
-6. Fill in the **反思** and **情緒筆記** sections in today's Daily Journal
+6. Fill in the **Reflection** and **Mood Notes** sections in today's Daily Journal
 7. **Weekend**: review the week in LeetCodeProgress, revisit 🔴/🟡 problems via spaced repetition queues; create a **Weekly Review** from `Templates/WeeklyReviewTemplate.md`
 
 ## Creating New Problem Notes

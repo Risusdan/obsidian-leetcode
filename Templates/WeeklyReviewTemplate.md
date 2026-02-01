@@ -9,7 +9,7 @@ overall_mood: ""
 
 # Weekly Review — {{date:YYYY-[W]ww}}
 
-## 本週總結
+## Weekly Summary
 
 ```dataview
 TABLE mood, energy, focus_rating
@@ -18,36 +18,36 @@ WHERE type = "daily-journal" AND date >= this.start_date AND date <= this.end_da
 SORT date ASC
 ```
 
-## 刷題統計
+## Problem Solving Stats
 
-- **本週解題數**：
-- **狀態分布**：🔴  / 🟡  / 🟢
-- **最有收穫的題目**：
+- **Problems solved this week**:
+- **Status distribution**: 🔴  / 🟡  / 🟢
+- **Most insightful problem**:
 
-## 技術學習回顧
+## Technical Learning Review
 
-> 本週學到的重點
-
-
-
-## 面試準備進度
-
-- **STAR 故事數量**：
-- **英文練習頻率**：
-
-## 情緒回顧
-
-> 本週 mood / energy 趨勢
+> Key learnings this week
 
 
 
-## 下週目標
+## Interview Prep Progress
+
+- **STAR stories count**:
+- **English practice frequency**:
+
+## Mood Review
+
+> This week's mood / energy trends
+
+
+
+## Next Week Goals
 
 - [ ]
 - [ ]
 - [ ]
 
-## 給 AI 的備註
+## Notes for AI
 
-> 希望 AI 下次給什麼建議（可選）
+> What advice should AI give next time (optional)
 

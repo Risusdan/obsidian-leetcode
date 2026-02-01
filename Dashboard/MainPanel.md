@@ -51,7 +51,7 @@ WHERE status = "🔴" OR status = "🟡"
 SORT date_attempted ASC
 ```
 
-## 最近日誌
+## Recent Journals
 
 ```dataview
 TABLE mood, energy, focus_rating

@@ -9,29 +9,29 @@ focus_rating: ""
 
 # Daily Journal — {{date:YYYY-MM-DD}} ({{date:dddd}})
 
-## 刷題記錄
+## Problem Solving Log
 
-| 題目 | 難度 | 狀態變化 | 卡關點 | 頓悟 |
-|------|------|----------|--------|------|
+| Problem | Difficulty | Status Change | Stuck Point | Insight |
+|---------|------------|---------------|-------------|---------|
 | [[]] | | → | | |
 
-## 技術學習
+## Technical Learning
 
-> 今天學了什麼（Python / C++ / SQL / Pytest / Robot Framework）
+> What did I learn today (Python / C++ / SQL / Pytest / Robot Framework)
 
 
 
-## 英文與面試
+## English & Interview
 
-- **英文練習**：
-- **STAR 故事進度**：
+- **English practice**:
+- **STAR story progress**:
 
-## 反思
+## Reflection
 
-- **今天最大收穫**：
-- **明天計畫**：
+- **Biggest takeaway today**:
+- **Plan for tomorrow**:
 
-## 情緒筆記
+## Mood Notes
 
-> 自由書寫
+> Free writing
 
