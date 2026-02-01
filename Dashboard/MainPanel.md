@@ -51,6 +51,16 @@ WHERE status = "🔴" OR status = "🟡"
 SORT date_attempted ASC
 ```
 
+## 最近日誌
+
+```dataview
+TABLE mood, energy, focus_rating
+FROM "Journal/Daily"
+WHERE type = "daily-journal"
+SORT date DESC
+LIMIT 5
+```
+
 ## Quick Links
 
 - [[WeeklyKanban]]
