@@ -67,7 +67,18 @@ obsidian-leetcode/
 5. Move the Kanban card to Done
 6. **Weekend**: review the week in LeetCodeProgress, revisit 🔴/🟡 problems via spaced repetition queues
 
-## Naming Convention
+## Creating New Problem Notes
+
+1. Use `Templates/LeetCodeTemplate.md` as the base
+2. Place in the correct `LeetCode/{Topic}/` folder
+3. Fill all frontmatter fields — incomplete frontmatter breaks Dataview queries
+4. The `topic` field value must exactly match the folder name
+5. Use `[[wiki-links]]` in the Related Problems section (e.g., `[[LC1-TwoSum]]`) — this powers graph view connections
+6. Update the `## Phase` section to link to the correct phase (e.g., `[[Phase2-Core]]` for medium problems)
+
+## Conventions
+
+### Naming Convention
 
 All LeetCode problem notes follow this pattern:
 
@@ -80,7 +91,7 @@ Examples:
 - `LeetCode/Trees/LC226-InvertBinaryTree.md`
 - `LeetCode/DynamicProgramming/LC70-ClimbingStairs.md`
 
-## Frontmatter Schema
+### Frontmatter Schema
 
 Each problem note uses this frontmatter (defined in `Templates/LeetCodeTemplate.md`):
 
@@ -98,23 +109,13 @@ space_complexity:   # e.g., O(1)
 
 **Topic values must match folder names exactly** — Dataview queries in PhasePlans and Dashboard filter by `topic` field matching folder names like `"Arrays"`, `"TwoPointers"`, `"DynamicProgramming"`.
 
-## Status Legend
+### Status Legend
 
 | Emoji | Meaning | Spaced Repetition |
 |-------|---------|-------------------|
 | 🔴 | Not solved / needs help | Review after 1 day |
 | 🟡 | Solved with hints or difficulty | Review after 3 days |
 | 🟢 | Solved independently | Review after 7 days |
-
-## Plugins Required
-
-| Plugin | Purpose |
-|--------|---------|
-| **Dataview** | Powers all dashboard queries and progress tables |
-| **Kanban** | Weekly task board (WeeklyKanban.md) |
-| **Obsidian Git** | Auto-commit and sync vault to GitHub |
-| **Custom Attachment Location** | Organize attachments per folder |
-| **Table Editor** | Easier markdown table editing |
 
 ## Bidirectional Links & Graph View
 
@@ -125,13 +126,14 @@ This vault uses `[[wiki-links]]` extensively for Obsidian's graph view:
 
 Open Graph View (`Cmd+G`) to visualize connections between problems, phases, and dashboards.
 
-## When Creating New Problem Notes
+## Plugins & Theme
 
-1. Use `Templates/LeetCodeTemplate.md` as the base
-2. Place in the correct `LeetCode/{Topic}/` folder
-3. Fill all frontmatter fields — incomplete frontmatter breaks Dataview queries
-4. The `topic` field value must exactly match the folder name
-5. Use `[[wiki-links]]` in the Related Problems section (e.g., `[[LC1-TwoSum]]`) — this powers graph view connections
-6. Update the `## Phase` section to link to the correct phase (e.g., `[[Phase2-Core]]` for medium problems)
+| Plugin | Purpose |
+|--------|---------|
+| **Dataview** | Powers all dashboard queries and progress tables |
+| **Kanban** | Weekly task board (WeeklyKanban.md) |
+| **Obsidian Git** | Auto-commit and sync vault to GitHub |
+| **Custom Attachment Location** | Organize attachments per folder |
+| **Table Editor** | Easier markdown table editing |
 
 **Theme**: Obsidian Nord
