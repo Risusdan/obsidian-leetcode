@@ -32,3 +32,7 @@ FROM "LeetCode"
 WHERE topic = "SlidingWindow" OR topic = "LinkedList" OR topic = "Trees" OR topic = "Tries" OR topic = "Graphs" OR topic = "DynamicProgramming"
 SORT topic ASC, leetcode_number ASC
 ```
+
+## Navigation
+
+Prev: [[Phase1-Foundation]] | Next: [[Phase3-Practice]] | [[MainPanel]]

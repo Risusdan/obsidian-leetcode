@@ -22,17 +22,22 @@ end_date:
 
 ## Daily Breakdown
 
-| Day | LeetCode | Tech Learning | English | Notes |
-|-----|----------|---------------|---------|-------|
-| Mon |          |               |         |       |
-| Tue |          |               |         |       |
-| Wed |          |               |         |       |
-| Thu |          |               |         |       |
-| Fri |          |               |         |       |
-| Sat |          |               |         |       |
-| Sun |          |               |         |       |
+| Day | LeetCode (use `[[LC...]]` links) | Tech Learning | English | Notes |
+|-----|--------------------------------------|---------------|---------|-------|
+| Mon |                                      |               |         |       |
+| Tue |                                      |               |         |       |
+| Wed |                                      |               |         |       |
+| Thu |                                      |               |         |       |
+| Fri |                                      |               |         |       |
+| Sat |                                      |               |         |       |
+| Sun |                                      |               |         |       |
 
 ## Retrospective
 
 - What went well:
 - What to improve:
+
+## Links
+
+- [[MainPanel]]
+- [[WeeklyKanban]]

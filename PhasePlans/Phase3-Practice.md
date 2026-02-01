@@ -33,3 +33,7 @@ FROM "LeetCode"
 WHERE topic = "Heap" OR topic = "Intervals" OR topic = "Greedy" OR topic = "Backtracking" OR topic = "BitManipulation" OR topic = "Math"
 SORT topic ASC, leetcode_number ASC
 ```
+
+## Navigation
+
+Prev: [[Phase2-Core]] | Next: [[Phase4-Sprint]] | [[MainPanel]]

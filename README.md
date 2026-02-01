@@ -98,4 +98,13 @@ Examples:
 | **Custom Attachment Location** | Organize attachments per folder |
 | **Table Editor** | Easier markdown table editing |
 
+## Bidirectional Links & Graph View
+
+This vault uses `[[wiki-links]]` extensively for Obsidian's graph view:
+- **Related Problems**: Use `[[LC1-TwoSum]]` style links in the Related Problems section of each problem note to create topic clusters
+- **Phase links**: Each problem note links to its phase plan; phase plans link to adjacent phases
+- **Navigation**: Dashboards and weekly plans link back to `[[MainPanel]]` and each other
+
+Open Graph View (`Cmd+G`) to visualize connections between problems, phases, and dashboards.
+
 **Theme**: Obsidian Nord

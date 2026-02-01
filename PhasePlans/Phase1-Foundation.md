@@ -31,3 +31,7 @@ FROM "LeetCode"
 WHERE topic = "Arrays" OR topic = "TwoPointers" OR topic = "Stack" OR topic = "BinarySearch"
 SORT topic ASC, leetcode_number ASC
 ```
+
+## Navigation
+
+Next: [[Phase2-Core]] | [[MainPanel]]

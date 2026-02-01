@@ -25,3 +25,7 @@ date: {{date:YYYY-MM-DD}}
 ## Key Message
 
 -
+
+## Related LeetCode
+
+- [[]]

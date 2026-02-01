@@ -45,3 +45,5 @@ Dataview, Kanban, Obsidian Git, Custom Attachment Location, Table Editor. Theme:
 2. Place in the correct `LeetCode/{Topic}/` folder
 3. Fill all frontmatter fields — incomplete frontmatter breaks Dataview queries
 4. The `topic` field value must exactly match the folder name
+5. Use `[[wiki-links]]` in the Related Problems section (e.g., `[[LC1-TwoSum]]`) — this powers graph view connections
+6. Update the `## Phase` section to link to the correct phase (e.g., `[[Phase2-Core]]` for medium problems)

@@ -2,6 +2,8 @@
 kanban-plugin: basic
 ---
 
+[[MainPanel]]
+
 ## Todo
 
 - [ ]

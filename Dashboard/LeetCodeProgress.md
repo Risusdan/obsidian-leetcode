@@ -37,3 +37,8 @@ FROM "LeetCode"
 WHERE status = "🟢" AND date_solved != null AND date(today) - date(date_solved) >= dur(7 days)
 SORT date_solved ASC
 ```
+
+## Navigation
+
+- [[MainPanel]]
+- [[WeeklyKanban]]
