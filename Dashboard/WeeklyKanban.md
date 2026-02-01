@@ -1,12 +1,24 @@
 ---
-kanban-plugin: basic
----
 
-[[MainPanel]]
+kanban-plugin: board
+
+---
 
 ## Todo
 
-### Arrays & Hashing
+
+
+## InProgress
+
+
+
+## Done
+
+**Complete**
+
+
+## Arrays & Hashing
+
 - [ ] [[LC217-ContainsDuplicate]]
 - [ ] [[LC242-ValidAnagram]]
 - [ ] [[LC1-TwoSum]]
@@ -17,14 +29,18 @@ kanban-plugin: basic
 - [ ] [[LC128-LongestConsecutiveSequence]]
 - [ ] [[LC271-EncodeandDecodeStrings]]
 
-### Two Pointers
+
+## Two Pointers
+
 - [ ] [[LC125-ValidPalindrome]]
 - [ ] [[LC167-TwoSumII]]
 - [ ] [[LC15-3Sum]]
 - [ ] [[LC11-ContainerWithMostWater]]
 - [ ] [[LC42-TrappingRainWater]]
 
-### Sliding Window
+
+## Sliding Window
+
 - [ ] [[LC121-BestTimetoBuyandSellStock]]
 - [ ] [[LC3-LongestSubstringWithoutRepeatingCharacters]]
 - [ ] [[LC424-LongestRepeatingCharacterReplacement]]
@@ -32,7 +48,9 @@ kanban-plugin: basic
 - [ ] [[LC76-MinimumWindowSubstring]]
 - [ ] [[LC239-SlidingWindowMaximum]]
 
-### Stack
+
+## Stack
+
 - [ ] [[LC20-ValidParentheses]]
 - [ ] [[LC155-MinStack]]
 - [ ] [[LC150-EvaluateReversePolishNotation]]
@@ -41,7 +59,9 @@ kanban-plugin: basic
 - [ ] [[LC853-CarFleet]]
 - [ ] [[LC84-LargestRectangleinHistogram]]
 
-### Binary Search
+
+## Binary Search
+
 - [ ] [[LC704-BinarySearch]]
 - [ ] [[LC74-Searcha2DMatrix]]
 - [ ] [[LC875-KokoEatingBananas]]
@@ -50,7 +70,9 @@ kanban-plugin: basic
 - [ ] [[LC981-TimeBasedKeyValueStore]]
 - [ ] [[LC4-MedianofTwoSortedArrays]]
 
-### Linked List
+
+## Linked List
+
 - [ ] [[LC206-ReverseLinkedList]]
 - [ ] [[LC21-MergeTwoSortedLists]]
 - [ ] [[LC141-LinkedListCycle]]
@@ -63,7 +85,9 @@ kanban-plugin: basic
 - [ ] [[LC23-MergeKSortedLists]]
 - [ ] [[LC25-ReverseNodesinKGroup]]
 
-### Trees
+
+## Trees
+
 - [ ] [[LC226-InvertBinaryTree]]
 - [ ] [[LC104-MaximumDepthofBinaryTree]]
 - [ ] [[LC543-DiameterofBinaryTree]]
@@ -80,12 +104,16 @@ kanban-plugin: basic
 - [ ] [[LC124-BinaryTreeMaximumPathSum]]
 - [ ] [[LC297-SerializeandDeserializeBinaryTree]]
 
-### Tries
+
+## Tries
+
 - [ ] [[LC208-ImplementTrie]]
 - [ ] [[LC211-DesignAddandSearchWordsDataStructure]]
 - [ ] [[LC212-WordSearchII]]
 
-### Heap / Priority Queue
+
+## Heap / Priority Queue
+
 - [ ] [[LC703-KthLargestElementinaStream]]
 - [ ] [[LC1046-LastStoneWeight]]
 - [ ] [[LC973-KClosestPointstoOrigin]]
@@ -94,7 +122,9 @@ kanban-plugin: basic
 - [ ] [[LC355-DesignTwitter]]
 - [ ] [[LC295-FindMedianFromDataStream]]
 
-### Backtracking
+
+## Backtracking
+
 - [ ] [[LC78-Subsets]]
 - [ ] [[LC39-CombinationSum]]
 - [ ] [[LC46-Permutations]]
@@ -105,7 +135,9 @@ kanban-plugin: basic
 - [ ] [[LC17-LetterCombinationsofaPhoneNumber]]
 - [ ] [[LC51-NQueens]]
 
-### Graphs
+
+## Graphs
+
 - [ ] [[LC200-NumberofIslands]]
 - [ ] [[LC133-CloneGraph]]
 - [ ] [[LC695-MaxAreaofIsland]]
@@ -126,7 +158,9 @@ kanban-plugin: basic
 - [ ] [[LC787-CheapestFlightsWithinKStops]]
 - [ ] [[LC1631-PathWithMinimumEffort]]
 
-### Dynamic Programming
+
+## Dynamic Programming
+
 - [ ] [[LC70-ClimbingStairs]]
 - [ ] [[LC746-MinCostClimbingStairs]]
 - [ ] [[LC198-HouseRobber]]
@@ -151,7 +185,9 @@ kanban-plugin: basic
 - [ ] [[LC312-BurstBalloons]]
 - [ ] [[LC10-RegularExpressionMatching]]
 
-### Greedy
+
+## Greedy
+
 - [ ] [[LC53-MaximumSubarray]]
 - [ ] [[LC55-JumpGame]]
 - [ ] [[LC45-JumpGameII]]
@@ -161,7 +197,9 @@ kanban-plugin: basic
 - [ ] [[LC763-PartitionLabels]]
 - [ ] [[LC678-ValidParenthesisString]]
 
-### Intervals
+
+## Intervals
+
 - [ ] [[LC57-InsertInterval]]
 - [ ] [[LC56-MergeIntervals]]
 - [ ] [[LC435-NonOverlappingIntervals]]
@@ -169,7 +207,9 @@ kanban-plugin: basic
 - [ ] [[LC253-MeetingRoomsII]]
 - [ ] [[LC1851-MinimumIntervaltoIncludeEachQuery]]
 
-### Math & Geometry
+
+## Math & Geometry
+
 - [ ] [[LC48-RotateImage]]
 - [ ] [[LC54-SpiralMatrix]]
 - [ ] [[LC73-SetMatrixZeroes]]
@@ -179,7 +219,9 @@ kanban-plugin: basic
 - [ ] [[LC43-MultiplyStrings]]
 - [ ] [[LC2013-DetectSquares]]
 
-### Bit Manipulation
+
+## Bit Manipulation
+
 - [ ] [[LC136-SingleNumber]]
 - [ ] [[LC191-Numberof1Bits]]
 - [ ] [[LC338-CountingBits]]
@@ -188,24 +230,11 @@ kanban-plugin: basic
 - [ ] [[LC371-SumofTwoIntegers]]
 - [ ] [[LC7-ReverseInteger]]
 
-## InProgress
 
-- [ ]
 
-## Done
-
-**Complete**
-
-## TechLearning
-
-- [ ]
-
-## English
-
-- [ ]
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"board","list-collapse":[null,null]}
 ```
 %%
