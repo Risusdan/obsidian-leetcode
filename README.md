@@ -1,0 +1,101 @@
+# Obsidian LeetCode & Technical Interview Preparation Tracker
+
+An Obsidian vault for tracking a one-year LeetCode study plan based on the NeetCode 150 list, along with technical learning, test engineering, and behavioral interview preparation.
+
+## Vault Structure
+
+```
+obsidian-leetcode/
+├── Dashboard/
+│   ├── MainPanel.md            # Central hub — overall progress, stats by difficulty/topic
+│   ├── LeetCodeProgress.md     # Full problem list + spaced repetition review queues
+│   └── WeeklyKanban.md         # Kanban board for weekly task management
+├── LeetCode/
+│   ├── Arrays/
+│   ├── TwoPointers/
+│   ├── SlidingWindow/
+│   ├── Stack/
+│   ├── BinarySearch/
+│   ├── LinkedList/
+│   ├── Trees/
+│   ├── Tries/
+│   ├── Backtracking/
+│   ├── Graphs/
+│   ├── DynamicProgramming/
+│   ├── Heap/
+│   ├── Intervals/
+│   ├── Greedy/
+│   ├── BitManipulation/
+│   └── Math/
+├── PhasePlans/
+│   ├── Phase1-Foundation.md    # Month 1 — easy problems, build habits
+│   ├── Phase2-Core.md          # Month 2-3 — medium problems, all topics
+│   ├── Phase3-Practice.md      # Month 4-5 — remaining problems, timed practice
+│   └── Phase4-Sprint.md        # Final month — complete 150, mock interviews
+├── Templates/
+│   ├── LeetCodeTemplate.md     # Frontmatter + solution template for each problem
+│   ├── WeeklyPlanTemplate.md   # Weekly planning template
+│   └── BehavioralTemplate.md   # STAR story template
+├── TechLearning/
+│   ├── Python/
+│   ├── Cpp/
+│   ├── SQL/
+│   ├── Pytest/
+│   └── RobotFramework/
+├── TestEngineering/
+│   └── TestCaseDesign/
+└── EnglishAndInterview/
+    ├── BehavioralInterview/
+    └── EnglishPractice/
+```
+
+## Preparation Plan Overview
+
+| Phase | Timeframe | Focus | Milestone |
+|-------|-----------|-------|-----------|
+| **Phase 1 — Foundation** | Month 1 | Easy problems in Arrays, Two Pointers, Stack, Binary Search; Python setup; daily habit | 30 problems solved |
+| **Phase 2 — Core** | Month 2-3 | Medium problems across all NeetCode topics; Trees, Graphs, DP deep dive; behavioral prep | 80 problems solved |
+| **Phase 3 — Practice** | Month 4-5 | Remaining topics (Heap, Intervals, Greedy, Backtracking, Bit Manipulation, Math); timed sessions; mock interviews | 120 problems solved |
+| **Phase 4 — Sprint** | Final month | Complete 150/150; hard problems; daily spaced repetition; full mock interviews | All problems at 🟢 |
+
+## Daily Workflow
+
+1. Open **MainPanel** — check overall progress and identify problems needing review
+2. Check **WeeklyKanban** — pick today's task from the Todo column, move it to InProgress
+3. Solve the LeetCode problem — write solution in the corresponding `LeetCode/{Topic}/` note using the template
+4. Update frontmatter status (`🔴` → `🟡` → `🟢`) and fill in complexity analysis + key takeaways
+5. Move the Kanban card to Done
+6. **Weekend**: review the week in LeetCodeProgress, revisit 🔴/🟡 problems via spaced repetition queues
+
+## Naming Convention
+
+All LeetCode problem notes follow this pattern:
+
+```
+LeetCode/{Topic}/LC{number}-{Title}.md
+```
+
+Examples:
+- `LeetCode/Arrays/LC1-TwoSum.md`
+- `LeetCode/Trees/LC226-InvertBinaryTree.md`
+- `LeetCode/DynamicProgramming/LC70-ClimbingStairs.md`
+
+## Status Legend
+
+| Emoji | Meaning | Spaced Repetition |
+|-------|---------|-------------------|
+| 🔴 | Not solved / needs help | Review after 1 day |
+| 🟡 | Solved with hints or difficulty | Review after 3 days |
+| 🟢 | Solved independently | Review after 7 days |
+
+## Plugins Required
+
+| Plugin | Purpose |
+|--------|---------|
+| **Dataview** | Powers all dashboard queries and progress tables |
+| **Kanban** | Weekly task board (WeeklyKanban.md) |
+| **Obsidian Git** | Auto-commit and sync vault to GitHub |
+| **Custom Attachment Location** | Organize attachments per folder |
+| **Table Editor** | Easier markdown table editing |
+
+**Theme**: Obsidian Nord
