@@ -80,6 +80,24 @@ Examples:
 - `LeetCode/Trees/LC226-InvertBinaryTree.md`
 - `LeetCode/DynamicProgramming/LC70-ClimbingStairs.md`
 
+## Frontmatter Schema
+
+Each problem note uses this frontmatter (defined in `Templates/LeetCodeTemplate.md`):
+
+```yaml
+leetcode_number:    # integer
+title:              # string
+difficulty:         # Easy | Medium | Hard
+topic:              # must match folder name exactly (e.g., "Arrays", "DynamicProgramming")
+status:             # 🔴 | 🟡 | 🟢
+date_attempted:     # YYYY-MM-DD
+date_solved:        # YYYY-MM-DD
+time_complexity:    # e.g., O(n)
+space_complexity:   # e.g., O(1)
+```
+
+**Topic values must match folder names exactly** — Dataview queries in PhasePlans and Dashboard filter by `topic` field matching folder names like `"Arrays"`, `"TwoPointers"`, `"DynamicProgramming"`.
+
 ## Status Legend
 
 | Emoji | Meaning | Spaced Repetition |
@@ -106,5 +124,14 @@ This vault uses `[[wiki-links]]` extensively for Obsidian's graph view:
 - **Navigation**: Dashboards and weekly plans link back to `[[MainPanel]]` and each other
 
 Open Graph View (`Cmd+G`) to visualize connections between problems, phases, and dashboards.
+
+## When Creating New Problem Notes
+
+1. Use `Templates/LeetCodeTemplate.md` as the base
+2. Place in the correct `LeetCode/{Topic}/` folder
+3. Fill all frontmatter fields — incomplete frontmatter breaks Dataview queries
+4. The `topic` field value must exactly match the folder name
+5. Use `[[wiki-links]]` in the Related Problems section (e.g., `[[LC1-TwoSum]]`) — this powers graph view connections
+6. Update the `## Phase` section to link to the correct phase (e.g., `[[Phase2-Core]]` for medium problems)
 
 **Theme**: Obsidian Nord
