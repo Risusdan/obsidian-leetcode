@@ -140,6 +140,7 @@ Open Graph View (`Cmd+G`) to visualize connections between problems, phases, and
 | **Obsidian Git**               | Auto-commit and sync vault to GitHub             |
 | **Custom Attachment Location** | Organize attachments per folder                  |
 | **Table Editor**               | Easier markdown table editing                    |
+| **Terminal**                   | Run terminal commands within Obsidian            |
 
 See https://youtu.be/IlNOhNeWGgY?si=kCzXCEmpc_PAVIec for plugin setup instructions.
 
