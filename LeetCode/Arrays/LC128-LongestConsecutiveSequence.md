@@ -12,13 +12,15 @@ space_complexity:
 
 # LC128 - Longest Consecutive Sequence
 
-
+Find the longest sequence of consecutive numbers in an unsorted array and return that sequence's length.
 
 ## Problem Link
 
 - [LeetCode 128](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 ## Solution (Python)
+
+
 
 ```python
 
