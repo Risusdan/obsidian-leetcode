@@ -12,7 +12,7 @@ space_complexity:
 
 # LC36 - Valid Sudoku
 
-Verifying whether a partially filled 9x9 Sudoku board follows the game's rules. You need to check that no digit repeats in any row, column, or 3x3 sub-grid.
+You're given a 9 by 9 Sudoku board, and you need to check whether it's valid according to Sudoku rules: each row, each column, and each of the 3 by 3 sub-boxes must contain unique digits from 1 to 9, except for empty cells.
 
 ## Problem Link
 
