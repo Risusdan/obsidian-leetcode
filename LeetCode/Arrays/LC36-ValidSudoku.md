@@ -20,6 +20,8 @@ You're given a 9 by 9 Sudoku board, and you need to check whether 
 
 ## Solution (Python)
 
+Iterate through each row, each column, and each 3 by 3 box, using a hash set to confirm all digits are unique. If all checks pass, the Sudoku is valid.
+
 ```python
 
 ```

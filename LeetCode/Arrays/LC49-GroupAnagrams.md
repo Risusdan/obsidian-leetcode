@@ -12,6 +12,8 @@ space_complexity:
 
 # LC49 - Group Anagrams
 
+You're given a list of words, and you need to group them so that words which are anagrams of each other appear in the same group.
+
 ## Problem Link
 
 - [LeetCode 49](https://leetcode.com/problems/group-anagrams/)
