@@ -20,7 +20,7 @@ You're given a list of words, and you need to group them so that w
 
 ## Solution (Python)
 
-
+Go through each word, sort its letters, and use that sorted form as the key. Add the original word to a list under that key. At the end, all words grouped by the same key are your anagram groups.
 
 ```python
 

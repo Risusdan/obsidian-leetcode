@@ -12,6 +12,8 @@ space_complexity:
 
 # LC128 - Longest Consecutive Sequence
 
+
+
 ## Problem Link
 
 - [LeetCode 128](https://leetcode.com/problems/longest-consecutive-sequence/)

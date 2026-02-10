@@ -12,6 +12,8 @@ space_complexity:
 
 # LC217 - Contains Duplicate
 
+You're given an array of integers, and the goal is to determine if any value appears at least twice.
+
 ## Problem Link
 
 - [LeetCode 217](https://leetcode.com/problems/contains-duplicate/)
