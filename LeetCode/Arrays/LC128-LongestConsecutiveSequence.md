@@ -20,7 +20,7 @@ Find the longest sequence of consecutive numbers in an unsorted array�
 
 ## Solution (Python)
 
-
+Convert the array to a set, find the start of each sequence, count its length, and keep track of the longest one. That gives you the length of the longest consecutive sequence.
 
 ```python
 
