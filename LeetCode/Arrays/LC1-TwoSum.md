@@ -12,6 +12,8 @@ space_complexity:
 
 # LC1 - Two Sum
 
+Finding two numbers in an array that add up to a specific target. You're asked to return the indices of those two numbers.
+
 ## Problem Link
 
 - [LeetCode 1](https://leetcode.com/problems/two-sum/)
