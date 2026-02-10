@@ -18,6 +18,8 @@ space_complexity:
 
 ## Solution (Python)
 
+First, initialize an empty hash map. Then, iterate through the array: for each element, compute the complement by subtracting the element from the target, and check if that complement is in the map. If it is, return the indices. If not, store the current element and its index in the map.
+
 ```python
 
 ```

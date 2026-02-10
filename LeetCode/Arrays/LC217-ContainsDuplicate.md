@@ -18,6 +18,8 @@ space_complexity:
 
 ## Solution (Python)
 
+You loop through the array and use a hash set. For each element, check if it’s already in the set. If it is, return true. If not, add it to the set. If you finish the loop without finding duplicates, return false.
+
 ```python
 
 ```
