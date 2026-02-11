@@ -12,6 +12,8 @@ space_complexity:
 
 # LC238 - Product of Array Except Self
 
+Finding an array where each element is the product of all the numbers in the original array, except the one at that index. And importantly, you can't use division.
+
 ## Problem Link
 
 - [LeetCode 238](https://leetcode.com/problems/product-of-array-except-self/)
