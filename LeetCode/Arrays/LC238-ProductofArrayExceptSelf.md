@@ -20,6 +20,8 @@ Finding an array where each element is the product of all the number
 
 ## Solution (Python)
 
+First, you create an array to hold the result, starting all at ones. Then, as you move from left to right, you multiply the product so far and store it. After that, you do another pass from right to left, multiplying each element by the product from the right side. In the end, the result array holds the final products. That’s the core idea, step by step.
+
 ```python
 
 ```
