@@ -20,7 +20,7 @@ Checking if two strings are anagrams of each other. In other words, 
 
 ## Solution (Python)
 
-
+Create an 26 elements array which represents a letter from 'a' to 'z'. You increment the count for each letter in the first string, and decrement for each letter in the second string. If all elements end up zero, the two strings are anagrams.
 
 ```python
 
