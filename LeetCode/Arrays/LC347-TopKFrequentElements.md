@@ -20,7 +20,7 @@ Gives you an array of numbers and a number k, and you should find 
 
 ## Solution (Python)
 
-
+First, you count the frequency of each element using a hash map. Next, you convert that into a list of pairs or tuples, where each pair is the element and its frequency. Then, you sort that list by frequency in descending order. Finally, you pick the top k elements from the sorted list. This gives you the top k frequent elements.
 
 ```python
 
