@@ -4,7 +4,7 @@ title: Group Anagrams
 difficulty: Medium
 topic: Arrays
 status: 🔴
-date_attempted:
+date_attempted: 2026/2/10
 date_solved:
 time_complexity:
 space_complexity:
