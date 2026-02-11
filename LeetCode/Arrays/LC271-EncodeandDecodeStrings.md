@@ -4,13 +4,15 @@ title: Encode and Decode Strings
 difficulty: Medium
 topic: Arrays
 status: 🔴
-date_attempted:
+date_attempted: 2026/2/11
 date_solved:
 time_complexity:
 space_complexity:
 ---
 
 # LC271 - Encode and Decode Strings
+
+Encoding a list of strings into one single string and then decoding it back to the original list.
 
 ## Problem Link
 
