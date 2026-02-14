@@ -4,7 +4,7 @@ title: Car Fleet
 difficulty: Medium
 topic: Stack
 status: 🔴
-date_attempted:
+date_attempted: 2026/2/14
 date_solved:
 time_complexity:
 space_complexity:
