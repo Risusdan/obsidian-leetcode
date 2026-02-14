@@ -4,7 +4,7 @@ title: Valid Parentheses
 difficulty: Easy
 topic: Stack
 status: 🔴
-date_attempted:
+date_attempted: 2026/2/13
 date_solved:
 time_complexity:
 space_complexity:
