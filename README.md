@@ -1,6 +1,6 @@
 # Obsidian LeetCode & Technical Interview Preparation Tracker
 
-An Obsidian vault for tracking a one-year LeetCode study plan based on the NeetCode 150 list, along with technical learning, behavioral interview preparation, and daily journaling.
+An Obsidian vault for tracking a one-year LeetCode study plan based on the NeetCode 150 list, along with technical learning and behavioral interview preparation.
 
 ## Vault Structure
 
@@ -32,15 +32,10 @@ obsidian-leetcode/
 │   ├── Phase2-Core.md          # Month 2-3 — medium problems, all topics
 │   ├── Phase3-Practice.md      # Month 4-5 — remaining problems, timed practice
 │   └── Phase4-Sprint.md        # Final month — complete 150, mock interviews
-├── Journal/
-│   ├── Daily/                   # Daily journals (YYYY-MM-DD.md)
-│   └── Weekly/                  # Weekly reviews (Week-YYYY-WNN.md)
 ├── Templates/
 │   ├── LeetCodeTemplate.md     # Frontmatter + solution template for each problem
 │   ├── WeeklyPlanTemplate.md   # Weekly planning template
-│   ├── BehavioralTemplate.md   # STAR story template
-│   ├── DailyJournalTemplate.md # Daily journal template
-│   └── WeeklyReviewTemplate.md # Weekly review template
+│   └── BehavioralTemplate.md   # STAR story template
 ├── TechLearning/
 │   ├── Python/
 │   ├── Cpp/
@@ -63,14 +58,12 @@ obsidian-leetcode/
 
 ## Daily Workflow
 
-0. Open or create today's **Daily Journal** from `Templates/DailyJournalTemplate.md` → `Journal/Daily/YYYY-MM-DD.md`
 1. Open **MainPanel** — check overall progress and identify problems needing review
 2. Check **WeeklyKanban** — pick today's task from the Todo column, move it to InProgress
 3. Solve the LeetCode problem — write solution in the corresponding `LeetCode/{Topic}/` note using the template
 4. Update frontmatter status (`🔴` → `🟡` → `🟢`) and fill in complexity analysis + key takeaways
 5. Move the Kanban card to Done
-6. Fill in the **Reflection** and **Mood Notes** sections in today's Daily Journal
-7. **Weekend**: review the week in LeetCodeProgress, revisit 🔴/🟡 problems via spaced repetition queues; create a **Weekly Review** from `Templates/WeeklyReviewTemplate.md`
+6. **Weekend**: review the week in LeetCodeProgress, revisit 🔴/🟡 problems via spaced repetition queues
 
 ## Creating New Problem Notes
 
